@@ -1,0 +1,12 @@
+{
+  "TextureModID": "zal.logannrace",
+  "ItemDefName": "Wolv_Axe",
+  "ItemType": "ThingDef",
+  "ItemTypeNamespace": "Verse",
+  "OffX": 0.387931049,
+  "OffY": -0.06896552,
+  "Rotation": 45.0,
+  "BladeStart": 0.456896544,
+  "BladeEnd": 1.04310346,
+  "MeleeWeaponType": 6
+}

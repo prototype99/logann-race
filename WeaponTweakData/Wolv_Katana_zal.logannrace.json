@@ -1,0 +1,10 @@
+{
+  "TextureModID": "zal.logannrace",
+  "ItemDefName": "Wolv_Katana",
+  "ItemType": "ThingDef",
+  "ItemTypeNamespace": "Verse",
+  "OffX": 0.293103456,
+  "BladeStart": 0.103448279,
+  "BladeEnd": 0.767241359,
+  "MeleeWeaponType": 6
+}

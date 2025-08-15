@@ -1,0 +1,10 @@
+{
+  "TextureModID": "zal.logannrace",
+  "ItemDefName": "Wolv_Sword",
+  "ItemType": "ThingDef",
+  "ItemTypeNamespace": "Verse",
+  "OffX": 0.293103456,
+  "BladeStart": 0.103448279,
+  "BladeEnd": 0.7413793,
+  "MeleeWeaponType": 6
+}

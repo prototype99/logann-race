@@ -1,0 +1,11 @@
+{
+  "TextureModID": "zal.logannrace",
+  "ItemDefName": "Wolv_Mace",
+  "ItemType": "ThingDef",
+  "ItemTypeNamespace": "Verse",
+  "OffX": 0.215517238,
+  "OffY": -0.00862069,
+  "BladeStart": 0.37931034,
+  "BladeEnd": 0.6896552,
+  "MeleeWeaponType": 9
+}

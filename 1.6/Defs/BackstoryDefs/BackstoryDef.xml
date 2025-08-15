@@ -1,0 +1,691 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.AlienBackstoryDef>
+    <defName>WolvxSpyKid</defName>
+    <title>Operative trainee</title>
+    <titleShort>Op-trainee</titleShort>
+    <description>[PAWN_nameDef] was trained for specialization in infiltration and sabotage operations.</description>
+    <slot>Childhood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>20</maleCommonality>
+    <femaleCommonality>20</femaleCommonality>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <Social>2</Social>
+      <Melee>4</Melee>
+      <Shooting>4</Shooting>
+      <Intellectual>4</Intellectual>
+    </skillGains>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>WolvxToughkid</defName>
+    <title>Marksman trainee</title>
+    <titleShort>Mk-trainee</titleShort>
+    <description>[PAWN_nameDef] had superior hand-eye coordination and sharp eyesight, so [PAWN_pronoun] was trained for advanced marksmanship and scouting as a potential detached sniper or dedicated marksman.</description>
+    <slot>Childhood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>20</maleCommonality>
+    <femaleCommonality>20</femaleCommonality>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <Construction>2</Construction>
+      <Melee>4</Melee>
+      <Plants>2</Plants>
+      <Social>3</Social>
+      <Intellectual>3</Intellectual>
+    </skillGains>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>WolvxEngineer</defName>
+    <title>Combat engineer trainee</title>
+    <titleShort>Eng-trainee</titleShort>
+    <description>[PAWN_nameDef] was trained as a combat engineer - Repairing combat vehicles and demolishing enemy structures, as well as vehicle crew operations.</description>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>20</maleCommonality>
+    <femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <Intellectual>6</Intellectual>
+      <Crafting>5</Crafting>
+      <Melee>4</Melee>
+    </skillGains>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>WolvxCuriouskid</defName>
+    <title>Officer trainee</title>
+    <titleShort>Off-trainee</titleShort>
+    <description>[PAWN_nameDef] was trained as an officer candidate, specializing in large unit tactics.</description>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>20</maleCommonality>
+    <femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <Intellectual>3</Intellectual>
+      <Crafting>3</Crafting>
+      <Shooting>4</Shooting>
+      <Social>3</Social>
+      <Plants>3</Plants>
+      <Melee>4</Melee>
+    </skillGains>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>WolvxSpacer</defName>
+    <title>Starfighter pilot trainee</title>
+    <titleShort>SP-trainee</titleShort>
+    <description>[PAWN_nameDef] was trained in advanced starfighter piloting, and various survival and combat techniques.</description>
+    <slot>Childhood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>30</maleCommonality>
+    <femaleCommonality>30</femaleCommonality>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <Construction>6</Construction>
+      <Social>6</Social>
+      <Crafting>3</Crafting>
+      <Plants>3</Plants>
+      <Melee>4</Melee>
+    </skillGains>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>WolvxCmd1x</defName>
+    <title>Commando trainee</title>
+    <titleShort>CD-trainee</titleShort>
+    <description>[PAWN_nameDef] was trained for commando strikes as a member of a small unit. [PAWN_pronoun] has been through extensive combat and survival training.</description>
+    <slot>Childhood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>20</maleCommonality>
+    <femaleCommonality>20</femaleCommonality>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <Intellectual>4</Intellectual>
+      <Shooting>4</Shooting>
+      <Construction>4</Construction>
+      <Crafting>2</Crafting>
+    </skillGains>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>WolvxCmd2x</defName>
+    <title>Commando marksman trainee</title>
+    <titleShort>CM-trainee</titleShort>
+    <description>[PAWN_nameDef] was trained for commando strikes as a marksman in a small unit. [PAWN_pronoun] has been through extensive combat and survival training, specializing in marksmanship.</description>
+    <slot>Childhood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>20</maleCommonality>
+    <femaleCommonality>20</femaleCommonality>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <Intellectual>2</Intellectual>
+      <Shooting>6</Shooting>
+      <Construction>3</Construction>
+      <Crafting>2</Crafting>
+    </skillGains>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>WolvxColonyKid</defName>
+    <title>Combat medic trainee</title>
+    <titleShort>CM-trainee</titleShort>
+    <description>[PAWN_nameDef] was trained as a combat medic, and can perform life-saving operations in the field.</description>
+    <slot>Childhood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>80</maleCommonality>
+    <femaleCommonality>80</femaleCommonality>
+    <skillGains>
+      <Social>2</Social>
+      <Construction>1</Construction>
+      <Plants>2</Plants>
+      <Medicine>5</Medicine>
+      <Melee>3</Melee>
+    </skillGains>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>WolvxCoreKid</defName>
+    <title>Infantry trainee</title>
+    <titleShort>I-Trainee</titleShort>
+    <description>[PAWN_nameDef] was trained for infantry deployment as part of a large unit.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>90</maleCommonality>
+    <femaleCommonality>90</femaleCommonality>
+    <slot>Childhood</slot>
+    <skillGains>
+      <Social>2</Social>
+      <Plants>4</Plants>
+      <Melee>3</Melee>
+    </skillGains>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>WolvxDigKid</defName>
+    <title>Marine trainee</title>
+    <titleShort>M-trainee</titleShort>
+    <description>[PAWN_nameDef] was trained for amphibious operations - recieving general infantry combat training, as well as special training for diving and aquatic operations.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>20</maleCommonality>
+    <femaleCommonality>20</femaleCommonality>
+    <slot>Childhood</slot>
+    <skillGains>
+      <Plants>4</Plants>
+      <Mining>4</Mining>
+      <Melee>4</Melee>
+    </skillGains>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>WolvxCityKid</defName>
+    <title>Comms specialist trainee</title>
+    <titleShort>Comm-trainee</titleShort>
+    <description>[PAWN_nameDef] was trained as a communications specialist - able to jam enemy communications, or break through enemy jamming to maintain contact.</description>
+    <slot>Childhood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>80</maleCommonality>
+    <femaleCommonality>80</femaleCommonality>
+    <skillGains>
+      <Shooting>4</Shooting>
+      <Social>4</Social>
+      <Construction>2</Construction>
+      <Melee>3</Melee>
+    </skillGains>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>WolvxInf1x</defName>
+    <title>Infantry medic trainee</title>
+    <titleShort>IMed-Trainee</titleShort>
+    <description>[PAWN_nameDef] was trained for infantry deployment as a medic in a large unit.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>90</maleCommonality>
+    <femaleCommonality>90</femaleCommonality>
+    <slot>Childhood</slot>
+    <skillGains>
+      <Social>2</Social>
+      <Medicine>4</Medicine>
+      <Melee>3</Melee>
+    </skillGains>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>WolvxInf2x</defName>
+    <title>Infantry frontliner trainee</title>
+    <titleShort>IF-Trainee</titleShort>
+    <description>[PAWN_nameDef] was trained for front-line infantry deployment as part of the melee vanguard of a large unit.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>90</maleCommonality>
+    <femaleCommonality>90</femaleCommonality>
+    <slot>Childhood</slot>
+    <skillGains>
+      <Social>2</Social>
+      <Crafting>2</Crafting>
+      <Melee>4</Melee>
+    </skillGains>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <!-- ====== Adult Stories - not porn ====== -->
+  <AlienRace.AlienBackstoryDef>
+    <defName>WolvxCommander</defName>
+    <title>Army commander</title>
+    <titleShort>Army commander</titleShort>
+    <description>[PAWN_nameDef] leads troops as their commander. [PAWN_pronoun] has successfully led troops through a number of conflicts.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>20</maleCommonality>
+    <femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <Construction>4</Construction>
+      <Crafting>4</Crafting>
+      <Plants>4</Plants>
+      <Melee>4</Melee>
+    </skillGains>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>WolvxMCommander</defName>
+    <title>Merc commander</title>
+    <titleShort>Merc commander</titleShort>
+    <description>[PAWN_nameDef] leads a troop of mercenaries as their commander. [PAWN_pronoun] has successfully led troops through a number of conflicts.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>20</maleCommonality>
+    <femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <Construction>4</Construction>
+      <Crafting>4</Crafting>
+      <Plants>4</Plants>
+      <Melee>4</Melee>
+    </skillGains>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>WolvxSoldierAx</defName>
+    <title>Army soldier</title>
+    <titleShort>Army soldier</titleShort>
+    <description>[PAWN_nameDef] was assigned to one of the larger units, serving through several major conflicts.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>20</maleCommonality>
+    <femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <Crafting>3</Crafting>
+      <Social>3</Social>
+      <Intellectual>5</Intellectual>
+      <Melee>3</Melee>
+    </skillGains>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>WolvxSoldierMx</defName>
+    <title>Merc soldier</title>
+    <titleShort>Merc soldier</titleShort>
+    <description>[PAWN_nameDef] was contracted with a large mercenary unit, serving through several major conflicts.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>20</maleCommonality>
+    <femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <Crafting>3</Crafting>
+      <Social>3</Social>
+      <Intellectual>5</Intellectual>
+      <Melee>3</Melee>
+    </skillGains>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>WolvxGunmakerA</defName>
+    <title>Army gunsmith</title>
+    <titleShort>Army gunsmith</titleShort>
+    <description>[PAWN_nameDef]'s training was augmented with gunsmithing and maintenance, serving [PAWN_possessive] platoon's needs for weapon maintenance and requisition.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>20</maleCommonality>
+    <femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Shooting>5</Shooting>
+      <Crafting>9</Crafting>
+    </skillGains>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>WolvxGunmakerM</defName>
+    <title>Merc gunsmith</title>
+    <titleShort>Merc gunsmith</titleShort>
+    <description>[PAWN_nameDef]'s training was augmented with gunsmithing and maintenance, serving [PAWN_possessive] merc unit's needs for weapon maintenance and requisition.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>20</maleCommonality>
+    <femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Shooting>5</Shooting>
+      <Crafting>9</Crafting>
+    </skillGains>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>WolvxDeveloper</defName>
+    <title>Battlesim developer</title>
+    <titleShort>Military dev</titleShort>
+    <description>[PAWN_nameDef] has an extensive expertise in programming and tactical combat, making [PAWN_possessive] a leading expert in BattleSim development - creating extremely effective training simulations for troops.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>20</maleCommonality>
+    <femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Shooting>5</Shooting>
+      <Crafting>7</Crafting>
+      <Intellectual>7</Intellectual>
+    </skillGains>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>WolvxCmbEngA</defName>
+    <title>Army engineer</title>
+    <titleShort>Army engineer</titleShort>
+    <description>[PAWN_nameDef] served as a combat engineer with a major army detachment, servicing vehicles and equipment.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>20</maleCommonality>
+    <femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Shooting>3</Shooting>
+      <Mining>6</Mining>
+      <Construction>3</Construction>
+    </skillGains>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>WolvxCmbEngM</defName>
+    <title>Merc engineer</title>
+    <titleShort>Merc engineer</titleShort>
+    <description>[PAWN_nameDef] served as a combat engineer with a famous merc unit, servicing their vehicles and equipment.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>20</maleCommonality>
+    <femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Shooting>3</Shooting>
+      <Mining>6</Mining>
+      <Construction>3</Construction>
+    </skillGains>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>WolvxAMedic</defName>
+    <title>Army medic</title>
+    <titleShort>Army medic</titleShort>
+    <description>[PAWN_nameDef] serves as a combat medic, performing triage on the front lines, or more extensive medicine at a MASH (Mobile Army Surgical Hospital) unit.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>20</maleCommonality>
+    <femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Intellectual>6</Intellectual>
+      <Crafting>5</Crafting>
+      <Medicine>6</Medicine>
+    </skillGains>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>WolvxMercMedic</defName>
+    <title>Merc medic</title>
+    <titleShort>Merc medic</titleShort>
+    <description>[PAWN_nameDef] is contracted as a mercenary combat medic, performing triage on the front lines, or more extensive medicine at a MASH (Mobile Army Surgical Hospital) unit.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>20</maleCommonality>
+    <femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Intellectual>6</Intellectual>
+      <Crafting>5</Crafting>
+      <Medicine>6</Medicine>
+    </skillGains>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>WolvxScout</defName>
+    <title>Army scout</title>
+    <titleShort>Army scout</titleShort>
+    <description>[PAWN_nameDef] serves as a scout for a large detachment of troops, identifying hazards and potential ambush points.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>30</maleCommonality>
+    <femaleCommonality>30</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Melee>3</Melee>
+      <Plants>3</Plants>
+      <Construction>3</Construction>
+    </skillGains>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>WolvxMScout</defName>
+    <title>Merc scout</title>
+    <titleShort>Merc scout</titleShort>
+    <description>[PAWN_nameDef] serves as a scout for a veteran mercenary group, identifying hazards and potential ambush points.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>30</maleCommonality>
+    <femaleCommonality>30</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Melee>3</Melee>
+      <Plants>3</Plants>
+      <Construction>3</Construction>
+    </skillGains>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>MajorWolvx</defName>
+    <title>Army major</title>
+    <titleShort>Army major</titleShort>
+    <description>[PAWN_nameDef] served as intelligence officer for a large army unit, providing tactical support and intel coordination for [PAWN_possessive] unit.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>20</maleCommonality>
+    <femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Shooting>6</Shooting>
+      <Melee>6</Melee>
+      <Social>4</Social>
+      <Intellectual>4</Intellectual>
+    </skillGains>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>MajorMWolvx</defName>
+    <title>Merc major</title>
+    <titleShort>Merc major</titleShort>
+    <description>[PAWN_nameDef] served as intelligence officer for a large mercenary corps, providing tactical support and intel coordination.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>20</maleCommonality>
+    <femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Shooting>6</Shooting>
+      <Melee>6</Melee>
+      <Social>4</Social>
+      <Intellectual>4</Intellectual>
+    </skillGains>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>WolvxAPilot</defName>
+    <title>Army pilot</title>
+    <titleShort>Army pilot</titleShort>
+    <description>[PAWN_nameDef] served as a military pilot in a variety of fighter and support craft.</description>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>30</maleCommonality>
+    <femaleCommonality>30</femaleCommonality>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <Melee>6</Melee>
+      <Social>5</Social>
+      <Shooting>2</Shooting>
+    </skillGains>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>WolvxMPilot</defName>
+    <title>Merc pilot</title>
+    <titleShort>Merc pilot</titleShort>
+    <description>[PAWN_nameDef] was contracted as a military pilot to fly a variety of fighter and support craft, in multiple combat roles.</description>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>30</maleCommonality>
+    <femaleCommonality>30</femaleCommonality>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <Melee>6</Melee>
+      <Social>5</Social>
+      <Shooting>2</Shooting>
+    </skillGains>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>WolvxACommando</defName>
+    <title>Army commando</title>
+    <titleShort>Army commando</titleShort>
+    <description>[PAWN_nameDef] served with a small army commando unit, executing strike or extraction missions deep behind enemy lines.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>28</maleCommonality>
+    <femaleCommonality>28</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Melee>6</Melee>
+      <Shooting>6</Shooting>
+      <Medicine>4</Medicine>
+      <Crafting>4</Crafting>
+    </skillGains>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>WolvxMCommando</defName>
+    <title>Merc commando</title>
+    <titleShort>Merc commando</titleShort>
+    <description>[PAWN_nameDef] served with a small merc commando unit, executing strike or extraction missions deep behind enemy lines.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>28</maleCommonality>
+    <femaleCommonality>28</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Melee>6</Melee>
+      <Shooting>6</Shooting>
+      <Medicine>4</Medicine>
+      <Crafting>4</Crafting>
+    </skillGains>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>WolvxADemo</defName>
+    <title>Army demolitions</title>
+    <titleShort>Army demo</titleShort>
+    <description>[PAWN_nameDef] served as a demolitions and heavy weapons expert in a large detachment of troops. [PAWN_pronoun] has an expertise in various explosives, as well as combat engineering.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>10</maleCommonality>
+    <femaleCommonality>10</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Melee>6</Melee>
+      <Shooting>6</Shooting>
+      <Medicine>4</Medicine>
+      <Construction>4</Construction>
+    </skillGains>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>WolvxMDemo</defName>
+    <title>Merc demolitions</title>
+    <titleShort>Merc demo</titleShort>
+    <description>[PAWN_nameDef] served as a demolitions and heavy weapons expert in a large merc unit. [PAWN_pronoun] has an expertise in various explosives, as well as combat engineering.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>18</maleCommonality>
+    <femaleCommonality>18</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Melee>6</Melee>
+      <Shooting>6</Shooting>
+      <Medicine>4</Medicine>
+      <Construction>4</Construction>
+    </skillGains>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Wolvxmechw</defName>
+    <title>Mech pilot</title>
+    <titleShort>Mechwarrior</titleShort>
+    <description>[PAWN_nameDef] is a Battlemech pilot, a Mech Warrior. Operating these massive walking tanks, MechWarriors serve in the armies of the Great Houses or as part of a Mercenary unit, fight in the gladiatorial arenas of Solaris VII, or operate on the fringes of society as pirates and bandits. Among the Clans, a MechWarrior can either be trueborn or freeborn, with the former enjoying greater social standing.
+    The jumpship [PAWN_pronoun] was on suffered a jump-drive malfunction, casting them off into the unknown. After waiting several weeks for rescue, with supplies running low, the crew decided to use the escape pods at the nearest habitable planet...
+    </description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>30</maleCommonality>
+    <femaleCommonality>30</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Shooting>8</Shooting>
+      <Intellectual>4</Intellectual>
+    </skillGains>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+</Defs>
