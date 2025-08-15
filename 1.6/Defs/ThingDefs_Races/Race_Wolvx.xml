@@ -471,7 +471,6 @@
       </ageGenerationCurve>
       <hediffGiverSets Inherit="false">
         <li>WolverineX</li>
-	<li>Human_BloodDripping_HediffGiverSet</li>	
       </hediffGiverSets>
     </race>
     <!--<recipes>
